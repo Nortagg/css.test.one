@@ -1,0 +1,211 @@
+.white-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  width: 60%;
+  height: 70vh;
+  background-color: #ededef;
+  background-image: radial-gradient(
+    #d7d9dd 1.7000000000000002px,
+    #eef0f4 1.7000000000000002px
+  );
+  background-size: 34px 34px;
+  border-radius: 2rem;
+  gap: 1rem;
+  .all-wrapp {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    gap: 1rem;
+    .black-card {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      padding: 1rem;
+      background-image: url("../../images/2.jpg");
+      background-position: right -114px top 175px;
+      background-size: cover;
+      border-radius: 2rem;
+      .more-offers {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: white;
+        font-size: 12px;
+        margin-left: 20px;
+        margin-top: 20px;
+      }
+      .title-thereis {
+        color: white;
+        font-size: 60px;
+        font-family: "Roboto";
+        margin-top: 10px;
+        margin-bottom: 0;
+        margin-left: 20px;
+        font-weight: 100;
+        line-height: 1.1;
+      }
+      .white-shop-bar {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 180px;
+        height: 60px;
+        background-color: #e1e3e7;
+        border-radius: 0.7rem;
+        margin-top: auto;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        .shop-all-products {
+          margin-right: 19px;
+          margin-left: 20px;
+          .shop-text {
+            font-size: 10px;
+            color: #99989e;
+            font-weight: bold;
+            margin-top: 5px;
+            margin-bottom: 5px;
+          }
+          .all-products-text {
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 5px;
+            margin-bottom: 5px;
+          }
+        }
+        .shopping-cart-icon {
+          display: flex;
+          align-items: center;
+          padding: 10px 15px 10px 15px;
+          box-shadow: 1px 0px 0.5px rgb(201, 199, 199);
+          font-size: 28px;
+          font-weight: lighter;
+
+          transform: scaleX(-1);
+        }
+      }
+    }
+    .right-wrapper-gray-purple-green {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      flex: 1;
+
+      .gray-card {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        background-image: url("../../images/3.jpg");
+        background-size: cover;
+        border-radius: 2rem;
+        padding: 1rem;
+        .gray-card-top-part {
+          display: flex;
+          justify-content: space-between;
+          .worldof-text {
+            display: flex;
+            justify-content: flex-start;
+            font-size: 12px;
+            font-weight: bold;
+            margin-top: 0;
+            margin-left: 5px;
+            color: #262628;
+          }
+          .gray-card-icon {
+            color: #262628;
+            font-size: 30px;
+          }
+        }
+        .viewour-text {
+          display: flex;
+          justify-content: flex-start;
+          margin-top: auto;
+          margin-left: 5px;
+          margin-bottom: 0;
+          color: #262628;
+          font-size: 34px;
+          font-weight: 600;
+        }
+      }
+      .wrapper-purple-green {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        flex: 1;
+
+        .purple-card {
+          display: flex;
+          flex: 1;
+          flex-direction: column;
+          background-color: #b286fd;
+          border-radius: 2rem;
+          padding: 1rem;
+          .purple-card-top-part {
+            display: flex;
+            justify-content: space-between;
+            .discoverour-text {
+              display: flex;
+              justify-content: flex-start;
+              font-size: 12px;
+              font-weight: bold;
+              margin-top: 0;
+              margin-left: 5px;
+              margin-bottom: 0;
+              color: #ffffff;
+            }
+            .purple-card-icon {
+              color: #ffffff;
+              font-size: 30px;
+            }
+          }
+          .aboutus-text {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: auto;
+            margin-left: 5px;
+            margin-bottom: 0;
+            font-size: 36px;
+            font-weight: 500;
+            color: #ffffff;
+          }
+        }
+        .green-card {
+          display: flex;
+          flex: 1;
+          flex-direction: column;
+          background-color: #b1f042;
+          border-radius: 2rem;
+          padding: 1rem;
+          .green-card-top-part {
+            display: flex;
+            justify-content: space-between;
+            .havesome-text {
+              display: flex;
+              justify-content: flex-start;
+              font-size: 12px;
+              font-weight: bold;
+              margin-top: 0;
+              margin-left: 5px;
+              margin-bottom: 0;
+              color: #262628;
+            }
+            .green-card-icon {
+              color: #262628;
+              font-size: 30px;
+            }
+          }
+          .contactus-text {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: auto;
+            margin-left: 5px;
+            margin-bottom: 0;
+            color: #262628;
+            font-size: 36px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}
